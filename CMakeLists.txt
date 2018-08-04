@@ -1,0 +1,14 @@
+cmake_minimum_required (VERSION 3.8)
+
+project (LearnCPP)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+set(LEARNCPP_VERSION_MAJOR 1)
+set(LEARNCPP_VERSION_MINOR 0)
+set(LEARNCPP_VERSION_PATCH 0)
+
+add_subdirectory(Test)
