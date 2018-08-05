@@ -43,3 +43,5 @@ Support for Linux & macOS will be added ASAP
 	- Program using vector(s)
 - DynamicVector
 	- Program using vector(s) dynamically
+- StringOperations
+	- Program with typical string operations
