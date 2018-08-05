@@ -18,4 +18,6 @@ Support for Linux & macOS will be added ASAP
 - Accuracies
 	- Displays accuracies of floating point numbers
 - Inaccuracy
-	- Displays inaccuracy with float Arithmetic:
+	- Displays inaccuracy with float Arithmetic
+- MathExpressions
+	- Calculates mathematical expressions
