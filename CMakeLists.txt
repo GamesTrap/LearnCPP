@@ -13,3 +13,4 @@ set(LEARNCPP_VERSION_PATCH 0)
 
 add_subdirectory(SumCalculator)
 add_subdirectory(IntegerLimits)
+add_subdirectory(CIntegerLimits)

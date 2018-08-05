@@ -9,3 +9,5 @@ Support for Linux & macOS will be added ASAP
 	- Calculates the sum of two integers
 - IntegerLimits
 	- Displays integer limits
+- CIntegerLimits
+	- Displays integer limits based on C language
