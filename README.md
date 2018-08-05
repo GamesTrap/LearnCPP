@@ -28,4 +28,6 @@ Support for Linux & macOS will be added ASAP
 - RomNum
 	- Converts Roman numeral(s) to int(s)
 - GDC
-	- 
+	- Displays GCD of two numbers
+- Prime
+	- Calculates a prime number that follows a given number
