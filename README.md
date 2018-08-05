@@ -21,3 +21,5 @@ Support for Linux & macOS will be added ASAP
 	- Displays inaccuracy with float Arithmetic
 - MathExpressions
 	- Calculates mathematical expressions
+-  IsCharSigned
+	- Displays if char is signed or unsigned
