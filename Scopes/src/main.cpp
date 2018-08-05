@@ -11,7 +11,7 @@ int main() //A new block begins.
 
 	//Within the block, a variable a is declared.
 	//From now on, the global a is still valid, but not visible under the name a, as the following line shows.
-	int a{ 10 };
+	const int a{ 10 };
 	//THe value of local a is output:
 	std::cout << "Local a = " << a << '\n';
 
@@ -20,10 +20,10 @@ int main() //A new block begins.
 
 	std::cout << "Global ::a = " << ::a << '\n';
 	{ //A new block begins within the existing one.
-		int b{ 20 };
+		const int b{ 20 };
 		//Variable b is declared within this block.
 		//This does not invalidate the global b, but invisible.
-		int c{ 30 }; //c is declared within this block.
+		const int c{ 30 }; //c is declared within this block.
 		//The values of b and c are output.
 		std::cout << "Local b = " << b << '\n';
 		std::cout << "Local c = " << c << '\n';

@@ -25,3 +25,5 @@ Support for Linux & macOS will be added ASAP
 	- Displays if char is signed or unsigned
 - Scopes
 	- Displays scopes of variables
+- RomNum
+	- Converts Roman numeral(s) to int(s)

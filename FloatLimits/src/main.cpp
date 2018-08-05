@@ -15,7 +15,7 @@ int main()
 	std::cout << "double      = " << sizeof(double) << '\n';
 	std::cout << "long double = " << sizeof(long double) << '\n';
 	std::cout << "float and double numbers do";
-	if (!std::numeric_limits<float>::is_iec559)
+	if constexpr (!std::numeric_limits<float>::is_iec559)
 		std::cout << " not";
 	std::cout << " comply with the IEC 559 (=IEEE 754) standard." << '\n';
 
