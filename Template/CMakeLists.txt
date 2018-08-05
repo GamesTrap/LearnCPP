@@ -1,7 +1,7 @@
-project(Test)
+project(Template)
 
-set( TEST_SOURCES
+set( TEMPLATE_SOURCES
 	src/main.cpp
 )
 
-add_executable(${PROJECT_NAME} ${TEST_SOURCES})
+add_executable(${PROJECT_NAME} ${TEMPLATE_SOURCES})

@@ -1,7 +1,7 @@
 project(SumCalculator)
 
-set( TEST_SOURCES
+set( SUMCALCULATOR_SOURCES
 	src/main.cpp
 )
 
-add_executable(${PROJECT_NAME} ${TEST_SOURCES})
+add_executable(${PROJECT_NAME} ${SUMCALCULATOR_SOURCES})
