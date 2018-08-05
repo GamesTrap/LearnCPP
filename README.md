@@ -47,3 +47,5 @@ Support for Linux & macOS will be added ASAP
 	- Program with typical string operations
 - Auto
 	- Program using auto(s)
+- StructBinding
+	- ...
