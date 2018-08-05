@@ -51,3 +51,5 @@ Support for Linux & macOS will be added ASAP
 	- ...
 - Union
 	- Program using Union(s)
+- BitField
+	- Program using BitField(s)
