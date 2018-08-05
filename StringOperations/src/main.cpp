@@ -13,14 +13,14 @@ int main() //Program with typical string operations
 	//The vector would instead require a loop for the output, such as the following:
 
 	//Output string by character, unchecked access like vector:
-	for (std::size_t i = 0; i < string.size(); ++i)
-		std::cout << string[i];
+	for (auto i : string)
+		std::cout << i;
 	std::cout << '\n';
 
 	//Output string character by character with index check.
 	//The number of character for std::string can also be determined with length().
-	for (std::size_t i = 0; i < string.length(); ++i)
-		std::cout << string.at(i);
+	for (auto i : string)
+		std::cout << i;
 	std::cout << '\n';
 
 	//The test happens like the vector.
@@ -31,7 +31,7 @@ int main() //Program with typical string operations
 	std::cout << copy << '\n'; //hello
 
 	//Copy by assignment
-	std::string strNew{ "new!" };
+	const std::string strNew{ "new!" };
 	copy = strNew;
 	std::cout << copy << '\n'; //new!
 
@@ -58,9 +58,9 @@ int main() //Program with typical string operations
 	string = std::string("123") + "ABC"; //OK!
 
 	//Comparison of std::strings
-	std::string a{ "Albert" };
-	std::string z{ "Alberta" };
-	std::string b{ a };
+	const std::string a{ "Albert" };
+	const std::string z{ "Alberta" };
+	const std::string b{ a };
 
 	if (a == b)
 		std::cout << a << " == " << b << '\n';
@@ -75,7 +75,7 @@ int main() //Program with typical string operations
 		std::cout << z << " != " << a << '\n';
 
 	//std::string with initialization list {'a', 'b', 'c'}
-	std::string str{ 'a','b','c' };
+	const std::string str{ 'a','b','c' };
 	std::cout << "std::string generated with initialization list: " << str << '\n';
 	
 	std::cout << "Press any key to continue . . . ";

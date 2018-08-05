@@ -45,3 +45,5 @@ Support for Linux & macOS will be added ASAP
 	- Program using vector(s) dynamically
 - StringOperations
 	- Program with typical string operations
+- Auto
+	- Program using auto(s)
