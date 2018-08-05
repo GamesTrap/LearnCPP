@@ -41,3 +41,5 @@ Support for Linux & macOS will be added ASAP
 	- Program using struct(s)
 - Vector
 	- Program using vector(s)
+- DynamicVector
+	- Program using vector(s) dynamically
