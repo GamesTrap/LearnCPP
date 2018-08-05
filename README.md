@@ -15,3 +15,5 @@ Support for Linux & macOS will be added ASAP
 	- Produces an overflow
 - FloatLimits
 	- Displays float limits
+- Accuracies
+	- Displays accuracies of floating point numbers
