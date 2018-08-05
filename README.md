@@ -36,4 +36,6 @@ Support for Linux & macOS will be added ASAP
 - Menu
 	- Displays a Menu made with break and continue
 - Enum
-	- ...
+	- Program using enum(s)
+- Struct
+	- Program using struct(s)
