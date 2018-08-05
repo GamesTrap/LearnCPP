@@ -33,3 +33,5 @@ Support for Linux & macOS will be added ASAP
 	- Calculates a prime number that follows a given number
 - FacCalculator
 	- Calculates the faculty of a number >= 0
+- Menu
+	- Displays a Menu made with break and continue
