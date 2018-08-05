@@ -31,3 +31,5 @@ Support for Linux & macOS will be added ASAP
 	- Displays GCD of two numbers
 - Prime
 	- Calculates a prime number that follows a given number
+- FacCalculator
+	- Calculates the faculty of a number >= 0

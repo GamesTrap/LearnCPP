@@ -23,7 +23,7 @@ int main()
 	{
 		//limit = limit up to which must be calculated.
 		//sqrt() works with double, so the type is explicitly cast.
-		long limit{ 1 + static_cast<long>(sqrt(static_cast<double>(z))) };
+		const long limit{ 1 + static_cast<long>(sqrt(static_cast<double>(z))) };
 		long rest;
 		long divider{ 1 };
 
