@@ -11,3 +11,5 @@ Support for Linux & macOS will be added ASAP
 	- Displays integer limits
 - CIntegerLimits
 	- Displays integer limits based on C language
+- Overflow
+	- Produces an overflow
