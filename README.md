@@ -35,3 +35,5 @@ Support for Linux & macOS will be added ASAP
 	- Calculates the faculty of a number >= 0
 - Menu
 	- Displays a Menu made with break and continue
+- Enum
+	- ...
