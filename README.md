@@ -17,3 +17,5 @@ Support for Linux & macOS will be added ASAP
 	- Displays float limits
 - Accuracies
 	- Displays accuracies of floating point numbers
+- Inaccuracy
+	- Displays inaccuracy with float Arithmetic:
