@@ -4,18 +4,23 @@ matrix:
   include:
     - os: linux
       dist: trusty
-      sudo: false
+      sudo: required
       compiler: gcc
+    - addons:
+        apt:
+          sources:
+            ubuntu-toolchain-r-test
+          packages:
+            g++-7
+
 
 before_install:
   # C++17
-  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
-  - sudo apt-get update -qq
+  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get -qq update; fi
 
 install:
   # C++17
-  - sudo apt-get install -qq g++-6
-  - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++6 90
+  - if [ "$COMPILER" = "g++-7"]; then export CXX="g++-7" CC="gcc-7"; fi
 
 script:
   - cmake .
