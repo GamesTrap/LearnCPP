@@ -2,8 +2,7 @@ language: cpp
 
 matrix:
   include:
-    os: 
-      - linux
+    - os: linux
         dist: trusty
         sudo: required
         compiler: gcc
@@ -12,7 +11,7 @@ matrix:
           apt:
             sources: ubuntu-toolchain-r-test
             packages: g++-7
-      - osx
+    - os: osx
 
 before_install: if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get -qq update; fi
 
