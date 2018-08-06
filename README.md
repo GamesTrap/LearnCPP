@@ -57,3 +57,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Displays user input
 - FileIO
 	- Creates a file and reads it
+- FileCopy
+	- Reads a file and saves it with a different name
