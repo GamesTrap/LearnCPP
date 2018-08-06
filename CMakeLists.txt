@@ -7,10 +7,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
 set(CMAKE_CXX_EXTENSIONS FALSE)
 
-set(LEARNCPP_VERSION_MAJOR 1)
-set(LEARNCPP_VERSION_MINOR 0)
-set(LEARNCPP_VERSION_PATCH 0)
-
 add_subdirectory(SumCalculator)
 add_subdirectory(IntegerLimits)
 add_subdirectory(CIntegerLimits)
