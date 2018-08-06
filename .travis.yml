@@ -5,21 +5,29 @@ sudo: required
 os:
   - linux
 
-compiler:
-  - gcc
-
 addons:
   apt:
     sources:
-      - ubuntu-toolchain-r-test
+      - ubuntu-toolchain-r/test/ubuntu trusty
+      - llvm-toolchain-trusty-6.0
     packages:
       - g++-7
+      - clang-5.0
+
+matrix:
+  include:
+    - compiler: gcc
+      env: COMPILER=g++-7
+
+    - compiler: clan
+      env: COMPILER=clang++-5.0
 
 before_install:
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get -qq update; fi
 
 install:
   - if [ "$COMPILER" = "g++-7" ]; then export CXX="g++-7" CC="gcc-7"; fi
+  - if [ "$COMPILER" = "clang++-5.0" ]; then export CXX="clang++-5.0" CC="clang-5.0"; fi
 
 script:
   - cmake .
