@@ -1,4 +1,5 @@
 #include <iostream>
+#include <climits>
 
 int main()
 {
@@ -12,7 +13,7 @@ int main()
 	std::cout << "LLONG_MAX =  " << LLONG_MAX << '\n';
 
 	std::cout << '\n' << "unsigned limits:" << '\n';
-	std::cout << "UINT_MAX   = " << UINT_MAX << '\n';
+	std::cout << "UINT_MAX   = " << UINT32_MAX << '\n';
 	std::cout << "ULONG_MAX  = " << ULONG_MAX << '\n';
 	std::cout << "ULLONG_MAX = " << ULLONG_MAX << '\n';
 
