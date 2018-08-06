@@ -1,7 +1,7 @@
 # Learn C++
 
 A collection of simple programs I used to learn C++.  
-Support for Linux & macOS will be added ASAP
+Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=master)](https://travis-ci.com/GamesTrap/LearnCPP)
 
 ## Programs
 
