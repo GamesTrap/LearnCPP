@@ -1,17 +1,18 @@
 language: cpp
-dist: trusty
-sudo: required
-compiler: gcc
-env: COMPILER=g++-7
 
-os:
-  - linux
-  - osx
-
-addons:
-  apt:
-    sources: ubuntu-toolchain-r-test
-    packages: g++-7
+matrix:
+  include:
+    os: 
+      - linux
+        dist: trusty
+        sudo: required
+        compiler: gcc
+        env: COMPILER=g++-7
+        addons:
+          apt:
+            sources: ubuntu-toolchain-r-test
+            packages: g++-7
+      - osx
 
 before_install: if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get -qq update; fi
 
