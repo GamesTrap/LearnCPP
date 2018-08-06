@@ -8,11 +8,11 @@ os:
 addons:
   apt:
     sources:
-      - ubuntu-toolchain-r/test/ubuntu trusty
+      - ubuntu-toolchain-r-test
       - llvm-toolchain-trusty-6.0
     packages:
       - g++-7
-      - clang-5.0
+      - clang-6.0
 
 matrix:
   include:
@@ -20,14 +20,14 @@ matrix:
       env: COMPILER=g++-7
 
     - compiler: clan
-      env: COMPILER=clang++-5.0
+      env: COMPILER=clang++-6.0
 
 before_install:
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get -qq update; fi
 
 install:
   - if [ "$COMPILER" = "g++-7" ]; then export CXX="g++-7" CC="gcc-7"; fi
-  - if [ "$COMPILER" = "clang++-5.0" ]; then export CXX="clang++-5.0" CC="clang-5.0"; fi
+  - if [ "$COMPILER" = "clang++-6.0" ]; then export CXX="clang++-6.0" CC="clang-6.0"; fi
 
 script:
   - cmake .
