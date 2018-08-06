@@ -1,26 +1,25 @@
 language: cpp
+dist: trusty
+sudo: required
 
-matrix:
-  include:
-    - os: linux
-      dist: trusty
-      sudo: required
-      compiler: gcc
-    - addons:
-        apt:
-          sources:
-            ubuntu-toolchain-r-test
-          packages:
-            g++-7
+os:
+  - linux
 
+compiler:
+  - gcc
+
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-7
 
 before_install:
-  # C++17
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get -qq update; fi
 
 install:
-  # C++17
-  - if [ "$COMPILER" = "g++-7"]; then export CXX="g++-7" CC="gcc-7"; fi
+  - if [ "$COMPILER" = "g++-7" ]; then export CXX="g++-7" CC="gcc-7"; fi
 
 script:
   - cmake .
