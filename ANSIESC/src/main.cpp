@@ -10,10 +10,12 @@ DWORD dwMode = 0;
 
 int main()
 {
+#if defined(WIN32) || defined(_WIN32) || defined(__WIN32) && !defined(__CYGWIN__)
 	//Set output mode to handle virtual terminal sequences	
 	GetConsoleMode(H_OUT, &dwMode);
 	dwMode |= ENABLE_VIRTUAL_TERMINAL_PROCESSING;
 	SetConsoleMode(H_OUT, dwMode);
+#endif
 
 	char eingabe;
 	std::cout << "Press the Enter key for each test!" << '\n'
