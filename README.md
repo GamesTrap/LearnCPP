@@ -55,3 +55,5 @@ Support for Linux & macOS will be added ASAP
 	- Program using BitField(s)
 - Input
 	- Displays user input
+- FileIO
+	- Creates a file and reads it
