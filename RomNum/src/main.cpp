@@ -1,6 +1,6 @@
 #include <iostream>
 
-//Workin values: V1, V2, V3
+//Working values: V1, V2, V3
 #define V1
 
 int main()

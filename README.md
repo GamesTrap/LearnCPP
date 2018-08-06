@@ -53,3 +53,5 @@ Support for Linux & macOS will be added ASAP
 	- Program using Union(s)
 - BitField
 	- Program using BitField(s)
+- Input
+	- Displays user input
