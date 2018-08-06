@@ -59,3 +59,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Creates a file and reads it
 - FileCopy
 	- Reads a file and saves it with a different name
+- BoolAlpha
+	- Displays if a char is captial or not
