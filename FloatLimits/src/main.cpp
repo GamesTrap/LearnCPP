@@ -38,7 +38,6 @@ int main()
 	std::cout << std::numeric_limits<long double>::max_exponent10 << '\n';
 
 	std::cout << "Press any key to continue . . . ";
-	std::cin.ignore(1000, '\n');
 	std::cin.get();
 	return 0;
 }

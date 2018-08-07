@@ -80,7 +80,6 @@ int main() //Program with typical string operations
 	std::cout << "std::string generated with initialization list: " << str << '\n';
 	
 	std::cout << "Press any key to continue . . . ";
-	std::cin.ignore(1000, '\n');
 	std::cin.get();
 	return 0;
 }

@@ -38,7 +38,6 @@ int main() //A new block begins.
 	//std::cout << "c = " << c << '\n'; //Error
 
 	std::cout << "Press any key to continue . . . ";
-	std::cin.ignore(1000, '\n');
 	std::cin.get();
 	return 0;
 }//End of the outer block

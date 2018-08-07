@@ -16,7 +16,6 @@ int main()
 	std::cout << "rgb1 = " << static_cast<char>(rgb2) << '\n'; //G
 
 	std::cout << "Press any key to continue . . . ";
-	std::cin.ignore(1000, '\n');
 	std::cin.get();
 	return 0;
 }

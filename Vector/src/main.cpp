@@ -47,7 +47,6 @@ int main() //Program with typical vector operations
 		std::cout << costs << '\n';
 
 	std::cout << "Press any key to continue . . . ";
-	std::cin.ignore(1000, '\n');
 	std::cin.get();
 	return 0;
 }

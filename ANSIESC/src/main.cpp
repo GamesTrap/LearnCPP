@@ -49,7 +49,6 @@ int main()
 		         "normal presentation" << '\n' << "End of program" << '\n';
 
 	std::cout << "Press any key to continue . . . ";
-	std::cin.ignore(1000, '\n');
 	std::cin.get();
 	return 0;
 }

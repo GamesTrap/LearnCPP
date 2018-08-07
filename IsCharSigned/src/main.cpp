@@ -12,7 +12,6 @@ int main()
 	std::cout << "Maximum = " << static_cast<int>(std::numeric_limits<char>::max()) << '\n';
 
 	std::cout << "Press any key to continue . . . ";
-	std::cin.ignore(1000, '\n');
 	std::cin.get();
 	return 0;
 }
