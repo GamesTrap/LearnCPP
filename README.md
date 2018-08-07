@@ -65,3 +65,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using the ANSI ESC sequence
 - Hex2float
 	- Outputs a float from a hexadecimal number
+- IfInitialization
+	- ...
