@@ -63,3 +63,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Displays if a char is captial or not
 - ANSIESC
 	- Program using the ANSI ESC sequence
+- Hex2float
+	- Outputs a float from a hexadecimal number
