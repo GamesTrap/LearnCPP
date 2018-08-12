@@ -93,3 +93,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using macros
 - GCCVersion
 	- Checks if you are using GNU C ++ Compiler and outputs its version
+- HasInclude
+	- Program using __has_include macro
