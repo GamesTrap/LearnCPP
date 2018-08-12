@@ -1,0 +1,7 @@
+project(DigitSumCalculatorWithRecursion)
+
+set( DIGITSUMCALCULATORWITHRECURSION_SOURCES
+	src/main.cpp
+)
+
+add_executable(${PROJECT_NAME} ${DIGITSUMCALCULATORWITHRECURSION_SOURCES})

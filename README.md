@@ -79,3 +79,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using a static variable
 - ByValue
 	- Program using Parameter transfer by value
+- DigitSumCalculatorWithRecursion
+	- Calculates digit sum of a number with recursion
