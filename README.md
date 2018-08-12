@@ -85,3 +85,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program to solve towers of hanoi with recursion
 - ByReference
 	- Program using Parameter transfer by reference
+- Price
+	- Outputs price(with predefined parameters)
