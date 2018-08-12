@@ -71,3 +71,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- ...
 - ForEachLoops
 	- Outputs a string and a vector with different foreach loops
+- FacCalculator2
+	- Calculates the faculty of a number >= 0 with functions
