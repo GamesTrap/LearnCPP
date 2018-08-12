@@ -89,3 +89,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Outputs price(with predefined parameters)
 - FunctionOverloading
 	- Program using function overloading
+- Macros
+	- Program using macros
