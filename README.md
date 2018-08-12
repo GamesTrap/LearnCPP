@@ -1,6 +1,6 @@
 # Learn C++
 
-A collection of simple programs I used to learn C++.  
+A collection of simple programs I made to learn C++.  
 Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=master)](https://travis-ci.com/GamesTrap/LearnCPP)
 
 ## Programs
@@ -83,3 +83,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Calculates digit sum of a number with recursion
 - TowersOfHanoiWithRecursion
 	- Program to solve towers of hanoi with recursion
+- ByReference
+	- Program using Parameter transfer by reference
