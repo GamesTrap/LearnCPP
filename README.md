@@ -77,3 +77,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Displays scopes of variables
 - Static
 	- Program using a static variable
+- ByValue
+	- Program using Parameter transfer by value
