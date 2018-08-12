@@ -81,3 +81,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using Parameter transfer by value
 - DigitSumCalculatorWithRecursion
 	- Calculates digit sum of a number with recursion
+- TowersOfHanoiWithRecursion
+	- Program to solve towers of hanoi with recursion

@@ -1,0 +1,7 @@
+project(TowersOfHanoiWithRecursion)
+
+set( TOWERSOFHANOIWITHRECURSION_SOURCES
+	src/main.cpp
+)
+
+add_executable(${PROJECT_NAME} ${TOWERSOFHANOIWITHRECURSION_SOURCES})
