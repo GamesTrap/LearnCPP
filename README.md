@@ -101,5 +101,7 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using namespaces
 - Constexpr
 	- Program using const(expr)
-- COnstexprauto
+- Constexprauto
 	- Program using const(expr) and auto
+- BiggestValueWithTemplates
+	- Outputs the biggest values of a vector using function templates
