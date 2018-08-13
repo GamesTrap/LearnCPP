@@ -99,3 +99,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using macros
 - Namespaces
 	- Program using namespaces
+- Constexpr
+	- Program using const(expr)
