@@ -101,3 +101,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using namespaces
 - Constexpr
 	- Program using const(expr)
+- COnstexprauto
+	- Program using const(expr) and auto
