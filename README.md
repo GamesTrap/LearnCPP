@@ -97,3 +97,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using __has_include macro
 - Macros2
 	- Program using macros
+- Namespaces
+	- Program using namespaces
