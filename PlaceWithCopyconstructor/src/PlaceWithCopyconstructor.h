@@ -3,7 +3,7 @@
 class Place
 {
 public:
-	Place(const int x, const int y);
+	Place(const int x = 0, const int y = 0);
 
 	Place(const Place& orig); //Copyconstructor
 

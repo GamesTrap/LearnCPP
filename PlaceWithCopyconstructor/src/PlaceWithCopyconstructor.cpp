@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-Place::Place(const int x = 0, const int y = 0)
+Place::Place(const int x, const int y)
 	: m_xCoordinate(x), m_yCoordiante(y)
 {}
 
@@ -22,12 +22,11 @@ void Place::change(int x, int y)
 }
 
 //Global functions
-
 //Calculation of the distance between two places
 double distance(const Place& p1, const Place& p2)
 {
-	double dx = static_cast<double>(p1.getX() - p2.getX());
-	double dy = static_cast<double>(p1.getY() - p2.getY());
+	const double dx = static_cast<double>(p1.getX() - p2.getX());
+	const double dy = static_cast<double>(p1.getY() - p2.getY());
 
 	return std::sqrt(dx * dx + dy * dy);
 }

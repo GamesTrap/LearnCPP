@@ -14,7 +14,7 @@ bool smaller(const int& a, const int& b) //Specialised
 	return(a < b);
 }
 
-bool smaller_func(const int a, const int b) //Normal function
+bool smallerFunc(const int a, const int b) //Normal function
 {
 	std::cout << "Normal Function" << '\n';
 	return(a < b);
@@ -34,7 +34,7 @@ int main()
 
 	//Is compiled, but gives a wrong result because
 	//of the loss of accuracy int the conversion!
-	std::cout << (smaller_func(3.1, 3.3) ? 3.1 : 3.3) << '\n';
+	std::cout << (smallerFunc(3.1, 3.3) ? 3.1 : 3.3) << '\n';
 
 	std::cout << "Press any key to continue . . . ";
 	std::cin.ignore(1000, '\n');
