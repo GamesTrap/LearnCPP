@@ -109,3 +109,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Outputs the biggest values of a vector using specialised function templates
 - Smaller
 	- Program using different functions and templates
+- Place
+	- Program using class
