@@ -115,3 +115,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using class and copy constructor
 - SequenceConstructor
 	- ...
+- constexprConstructorAndMethods
+	- Program using constexpr constructor and methods
