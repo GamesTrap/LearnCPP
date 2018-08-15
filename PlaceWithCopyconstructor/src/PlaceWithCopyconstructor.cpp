@@ -1,6 +1,7 @@
 #include "PlaceWithCopyconstructor.h"
 
 #include <iostream>
+#include <cmath>
 
 Place::Place(const int x, const int y)
 	: m_xCoordinate(x), m_yCoordiante(y)

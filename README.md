@@ -113,3 +113,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using class
 - PlaceWithCopyconstructor
 	- Program using class and copy constructor
+- SequenceConstructor
+	- ...
