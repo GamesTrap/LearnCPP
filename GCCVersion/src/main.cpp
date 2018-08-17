@@ -3,7 +3,7 @@
 #if __GNUG__
     #define COMPILER "GNU C++ Compiler"
 #else
-    #define COMPILER "other compiler"
+    #define COMPILER "Other compiler"
 #endif
 
 int main()
@@ -13,8 +13,7 @@ int main()
 	std::cout << "Version >= 6: " << __VERSION__ << '\n';
 #endif
 
-	std::cout << "Press any key to continue . . . ";
-	std::cin.ignore(1000, '\n');
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

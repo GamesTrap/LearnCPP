@@ -19,7 +19,7 @@ int main()
 	std::cin >> slices;
 	move(slices, 1, 2, 3);
 
-	std::cout << "Press any key to continue . . . ";
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.ignore(1000, '\n');
 	std::cin.get();
 	return 0;

@@ -6,7 +6,7 @@ int main()
 	std::cout << "The accuracy of double is about " << std::numeric_limits<double>::digits10 << " decimal places." << '\n';
 	std::cout << "The accuracy of long double is about " << std::numeric_limits<long double>::digits10 << " decimal places." << '\n';
 
-	std::cout << "Press any key to continue . . . ";
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

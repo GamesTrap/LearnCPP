@@ -21,8 +21,7 @@ int main()
 	std::cout << "long long = " << sizeof(long long) << '\n';
 	std::cout << "size_t    = " << sizeof(size_t) << '\n';
 
-	std::cout << "Press any key to continue . . . ";
-	std::cin.ignore(1000, '\n');
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

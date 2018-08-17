@@ -41,8 +41,7 @@ int main()
 	constexpr auto res4 = faculty1(3); //3 is literal
 	std::cout << "Result = " << res4 << '\n';
 
-	std::cout << "Press any key to continue . . . ";
-	std::cin.ignore(1000, '\n');
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

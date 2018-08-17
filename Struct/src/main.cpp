@@ -16,7 +16,7 @@ int main()
 
 	std::cout << "p1.x = " << p1.x << " p1.y = " << p1.y << " p1.isVisible = " << p1.isVisible << " p1.color = " << static_cast<int>(p1.color) << '\n';
 
-	std::cout << "Press any key to continue . . . ";
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

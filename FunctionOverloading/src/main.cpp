@@ -40,8 +40,7 @@ int main()
 	std::cout << maximum(-1000, static_cast<char>(128)) << '\n'; //Results -128
 	std::cout << maximum(-1000, static_cast<char>(129)) << '\n'; //Results -127 and so on
 
-	std::cout << "Press any key to continue . . . ";
-	std::cin.ignore(1000, '\n');
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

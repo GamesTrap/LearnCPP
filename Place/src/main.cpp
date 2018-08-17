@@ -11,8 +11,7 @@ int main()
 	const int x = cPlace.getX();
 	std::cout << x << '\n';
 
-	std::cout << "Press any key to continue . . . ";
-	std::cin.ignore(1000, '\n');
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

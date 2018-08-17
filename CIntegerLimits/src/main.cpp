@@ -18,7 +18,7 @@ int main()
 	std::cout << "ULONG_MAX  = " << ULONG_MAX << '\n';
 	std::cout << "ULLONG_MAX = " << ULLONG_MAX << '\n';
 
-	std::cout << "Press any key to continue . . . ";
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

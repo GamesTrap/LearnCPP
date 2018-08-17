@@ -79,7 +79,7 @@ int main() //Program with typical string operations
 	const std::string str{ 'a','b','c' };
 	std::cout << "std::string generated with initialization list: " << str << '\n';
 	
-	std::cout << "Press any key to continue . . . ";
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

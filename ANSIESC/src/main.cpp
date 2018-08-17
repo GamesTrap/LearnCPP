@@ -48,7 +48,7 @@ int main()
 	std::cout << "\33[0m"  //Switch back to normal presentation
 		         "normal presentation" << '\n' << "End of program" << '\n';
 
-	std::cout << "Press any key to continue . . . ";
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

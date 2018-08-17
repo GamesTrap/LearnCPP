@@ -31,7 +31,7 @@ int main()
 	u2.value = 99;
 	std::cout << u2.intFloat.intNumber << '\n'; //OK
 
-	std::cout << "Press any key to continue . . . ";
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

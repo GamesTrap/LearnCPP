@@ -8,8 +8,7 @@ int main()
 		<< "__DATE__ (Date of compilation): " << __DATE__ << '\n'
 		<< "__TIME__ (Time of compilation): " << __TIME__ << '\n';
 
-	std::cout << "Press any key to continue . . . ";
-	std::cin.ignore(1000, '\n');
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

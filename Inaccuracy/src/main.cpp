@@ -11,7 +11,7 @@ int main()
 	std::cout << "a + (b + c) = " << a + (b + c) << '\n'; //1.23457e-7
 	std::cout << (2 ^ 3) << '\n';
 
-	std::cout << "Press any key to continue . . . ";
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

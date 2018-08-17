@@ -16,7 +16,7 @@ int main()
 	d += 50; //Changes p1.y
 	std::cout << "p1.x = " << p1.x << " p1.y = " << p1.y << '\n';
 
-	std::cout << "Press any key to continue . . . ";
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

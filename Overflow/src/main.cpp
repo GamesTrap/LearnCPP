@@ -22,7 +22,7 @@ int main()
 	al = std::numeric_limits<long>::max() / 2 + 1000;
 	std::cout << "2 * " << al << " = " << (2 * al) << '\n';
 
-	std::cout << "Press any key to continue . . . ";
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

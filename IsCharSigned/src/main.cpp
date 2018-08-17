@@ -11,7 +11,7 @@ int main()
 	std::cout << "Minimum = " << static_cast<int>(std::numeric_limits<char>::min()) << '\n';
 	std::cout << "Maximum = " << static_cast<int>(std::numeric_limits<char>::max()) << '\n';
 
-	std::cout << "Press any key to continue . . . ";
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

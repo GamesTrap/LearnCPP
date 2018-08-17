@@ -28,8 +28,7 @@ int main()
 	Circle wrong1(-3.0); //Error message at runtime
 	//constexpr Circle wrong2(-3.0); //Error message about compilation time
 
-	std::cout << "Press any key to continue . . . ";
-	std::cin.ignore(1000, '\n');
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

@@ -16,8 +16,7 @@ int main()
 	//std::cout << "f1: c = " << c; //Is not compilable because c is unknown in main().
 	f1(); //Call f1()
 
-	std::cout << "Press any key to continue . . . ";
-	std::cin.ignore(1000, '\n');
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

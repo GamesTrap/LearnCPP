@@ -14,7 +14,7 @@ int main()
 	//Conversion to unsigned and output
 	std::cout << x.b << '\n';
 
-	std::cout << "Press any key to continue . . . ";
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

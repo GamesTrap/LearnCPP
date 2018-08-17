@@ -36,8 +36,7 @@ int main()
 	//of the loss of accuracy int the conversion!
 	std::cout << (smallerFunc(3.1, 3.3) ? 3.1 : 3.3) << '\n';
 
-	std::cout << "Press any key to continue . . . ";
-	std::cin.ignore(1000, '\n');
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

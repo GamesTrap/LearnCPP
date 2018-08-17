@@ -18,7 +18,7 @@ int main()
 	const unsigned long res = faculty(number);
 	std::cout << "Result: " << res << '\n';
 
-	std::cout << "Press any key to continue . . . ";
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.ignore(1000, '\n');
 	std::cin.get();
 	return 0;

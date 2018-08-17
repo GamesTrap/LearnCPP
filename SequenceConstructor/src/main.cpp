@@ -19,8 +19,7 @@ int main()
 	NumberSequence n5{ {7,8,9} };
 	n5.print();
 
-	std::cout << "Press any key to continue . . . ";
-	std::cin.ignore(1000, '\n');
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

@@ -14,8 +14,7 @@ int main()
 	std::cout << "BRANCH1 is undefined, constant is undefined or != 42" << '\n';
 #endif
 
-	std::cout << "Press any key to continue . . . ";
-	std::cin.ignore(1000, '\n');
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

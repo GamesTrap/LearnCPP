@@ -15,7 +15,7 @@ int main()
 	//Reason: RGB rgb2 {'X'}; is also possible WITHOUT warning by the compiler
 	std::cout << "rgb1 = " << static_cast<char>(rgb2) << '\n'; //G
 
-	std::cout << "Press any key to continue . . . ";
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

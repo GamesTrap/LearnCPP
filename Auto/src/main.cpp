@@ -26,7 +26,7 @@ int main()
 		std::cout << value << ' '; //Display
 	std::cout << '\n';
 
-	std::cout << "Press any key to continue . . . ";
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

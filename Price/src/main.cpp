@@ -12,8 +12,7 @@ int main()
 	showPrice(12.35); //Predetermined parameter is used
 	showPrice(99.99, "US-Dollar");
 
-	std::cout << "Press any key to continue . . . ";
-	std::cin.ignore(1000, '\n');
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

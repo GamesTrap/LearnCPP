@@ -59,7 +59,7 @@ int main()
 	//printTest(a, b);
 	//... and so on
 
-	std::cout << "Press any key to continue . . . ";
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.ignore(1000, '\n');
 	std::cin.get();
 	return 0;

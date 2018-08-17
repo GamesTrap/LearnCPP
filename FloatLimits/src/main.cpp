@@ -37,7 +37,7 @@ int main()
 	std::cout << "long double = " << std::numeric_limits<long double>::max_exponent << '\t';
 	std::cout << std::numeric_limits<long double>::max_exponent10 << '\n';
 
-	std::cout << "Press any key to continue . . . ";
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }

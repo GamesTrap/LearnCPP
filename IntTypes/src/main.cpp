@@ -39,8 +39,7 @@ int main()
 	//The reconversion must be the same address
 	assert(voidPointer == reinterpret_cast<void*>(uintptr_tNumber));
 
-	std::cout << "Press any key to continue . . . ";
-	std::cin.ignore(1000, '\n');
+	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();
 	return 0;
 }
