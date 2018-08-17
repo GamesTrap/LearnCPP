@@ -139,3 +139,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- ...
 - WriteBinaryFile
 	- Writes 20 double values to a file with binary format
+- ReadBinaryFile
+	- Reads file with binary format
