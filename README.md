@@ -129,3 +129,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using CStringArray
 - MainParameters
 	- Program using console/terminal parameters
+- This
+	- Program using this pointer
