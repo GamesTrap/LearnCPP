@@ -125,3 +125,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- A simple personnel administration program
 - IterateCArray
 	- ...
+- CStrArray
+	- Program using cstringarray
