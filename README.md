@@ -137,3 +137,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using templates and multi dimensional arrays
 - 2DArray
 	- ...
+- WriteBinaryFile
+	- Writes 20 double values to a file with binary format
