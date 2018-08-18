@@ -143,7 +143,9 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Reads file with binary format
 - WriteBinaryFile2
 	- Writes an array matrix to a file with binary format
-- FunktionPointer
+- FunctionPointer
 	- ...
 - QSort
 	- ...
+- Typedef
+	- Program using typedef
