@@ -1,6 +1,8 @@
 #include "Place.h"
+
 #include <cassert>
 #include <iostream>
+#include <cmath>
 
 Place::Place(const std::string& str)
 {

@@ -2,6 +2,7 @@
 
 #include "Place.h"
 #include <vector>
+#include <memory>
 
 void f(const std::unique_ptr<Place>& up) //By reference!
 {
