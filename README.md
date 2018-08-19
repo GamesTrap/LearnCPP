@@ -149,3 +149,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- ...
 - Typedef
 	- Program using typedef
+- UniquePointer
+	- Program using unique_ptr
