@@ -2,6 +2,7 @@
 
 #include <cassert>
 #include <string>
+#include <iostream>
 
 //The general constructor creates a String object from a classic C string.
 String::String(const char* str) //General constructor
