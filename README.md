@@ -159,3 +159,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- ...
 - ClassWithConstants
 	- Program using Constants inside a class
+- SimulateStack
+	- Program simulating stack
