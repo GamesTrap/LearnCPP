@@ -1,7 +1,6 @@
 #include <iostream>
 
 #include "Constants.h"
-#include <string>
 
 void f(const double x) { std::cout << "f(" << x << ") called!" << '\n'; }
 void g(const double& x) { std::cout << "g(" << x << ") called!" << '\n'; }
