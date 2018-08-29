@@ -49,7 +49,7 @@ int main()
 	std::cout << "Distance of the lines l1, l2 = " << distance(static_cast<GraphObj>(l1), static_cast<GraphObj>(l2)) << '\n';
 	//...
 
-	Rectangle rect(Place(0, 0), 20, 50);
+	const Rectangle rect(Place(0, 0), 20, 50);
 	std::cout << "rect.Area = " << rect.Area() << '\n'; //1000
 
 	std::cout << rect.GraphObj::Area() << '\n'; //0!

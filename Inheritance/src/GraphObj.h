@@ -16,7 +16,7 @@ public:
 	}
 
 	//Determine the old reference point and at the same time choose a new one
-	Place referencePoint(Place p)
+	Place referencePoint(const Place p)
 	{
 		const Place tmp{ m_referenceCoordinates };
 		m_referenceCoordinates = p;

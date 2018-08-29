@@ -1,10 +1,10 @@
 #pragma once
 
-#include <cassert>
-#include <string>
-#include <iostream>
-#include <cctype>
 #include <cmath>
+#include <string>
+#include <cctype>
+#include <cassert>
+#include <iostream>
 
 class Place
 {
@@ -22,7 +22,7 @@ public:
 			const bool negative = pos > 0 && str.at(pos - 1) == '-'; //Minus sign found?
 			//Make number
 			int coordinate = 0;
-			while(pos < str.size() && std::isdigit(str.at(pos)))
+			while (pos < str.size() && std::isdigit(str.at(pos)))
 			{
 				//Implicit type conversion char -> int
 				coordinate = 10 * coordinate + str.at(pos) - '0';
@@ -32,7 +32,7 @@ public:
 			if (negative)
 				coordinate = -coordinate;
 
-			switch(j)
+			switch (j)
 			{
 			case 0:
 				m_xCoordinate = coordinate;

@@ -165,3 +165,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- OOP
 - InheritConstructor
 	- Program demonstrating how to inherit a constructor
+- AbstractInheritance
+	- Abstract OOP
