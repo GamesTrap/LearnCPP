@@ -4,6 +4,7 @@
 #include <string>
 #include <iostream>
 #include <cctype>
+#include <cmath>
 
 class Place
 {

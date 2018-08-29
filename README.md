@@ -163,3 +163,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program simulating stack
 - Inheritance
 	- OOP
+- InheritConstructor
+	- Program demonstrating how to inherit a constructor
