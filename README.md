@@ -167,3 +167,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program demonstrating how to inherit a constructor
 - AbstractInheritance
 	- Abstract OOP
+- VirtualDestructor
+	- Program using virtual destructor
