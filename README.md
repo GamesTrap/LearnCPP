@@ -173,3 +173,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- ...
 - VirtualBaseClass
 	- Program using virtual base class initialization
+- Cast
+	- Program using static_cast and dynamic_cast
