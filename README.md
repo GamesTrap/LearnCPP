@@ -171,3 +171,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using virtual destructor
 - PrivateVirtualFunctions
 	- ...
+- VirtualBaseClass
+	- Program using virtual base class initialization
