@@ -169,3 +169,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Abstract OOP
 - VirtualDestructor
 	- Program using virtual destructor
+- PrivateVirtualFunctions
+	- ...
