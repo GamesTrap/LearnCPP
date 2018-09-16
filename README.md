@@ -179,3 +179,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using typeid
 - PrivateInheritance
 	- Program using private inheritance
+- Exstream
+	- ...
