@@ -189,3 +189,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using my own new_handler
 - OperatorOverloading
 	- ...
+- SimulateVector
+	- Simulates a vector class
