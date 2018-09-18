@@ -40,7 +40,7 @@ public:
 	//Assignment operator
 	//Vector<T>& operator=(const Vector<T>&);
 	Vector<T>& operator=(Vector<T>); //By value, see implementation below
-	void swap(Vector<T>& v) noexcept; //Swap vectors
+	void swap(Vector<T>& v) noexcept noexcept; //Swap vectors
 
 	//Pointer to start and end position for vectors with non constant and constant elements
 	T* begin() { return m_start; }
@@ -84,7 +84,7 @@ Vector<T>::Vector(const Vector<T>& v) //Copy constructor
 }
 
 template<typename T>
-void Vector<T>::swap(Vector<T>& v) noexcept
+void Vector<T>::swap(Vector<T>& v) noexcept noexcept
 {
 	std::swap(m_amount, v.m_amount);
 	std::swap(m_start, v.m_start);
