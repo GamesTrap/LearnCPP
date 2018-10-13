@@ -84,7 +84,7 @@ Vector<T>::Vector(const Vector<T>& v) //Copy constructor
 }
 
 template<typename T>
-void Vector<T>::swap(Vector<T>& v) noexcept noexcept
+void Vector<T>::swap(Vector<T>& v) noexcept
 {
 	std::swap(m_amount, v.m_amount);
 	std::swap(m_start, v.m_start);

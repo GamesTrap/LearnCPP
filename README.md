@@ -197,3 +197,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using a Date class for pre/post increment(++) overloading
 - SmartPointer
 	- Program using DIY SmartPointer class
+- FunctionObject
+	- Example program for function objects
