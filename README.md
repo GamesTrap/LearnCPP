@@ -193,3 +193,7 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Simulates a vector class
 - MathVector
 	- ...
+- Date
+	- Program using a Date class for pre/post increment(++) overloading
+- SmartPointer
+	- Program using DIY SmartPointer class

@@ -40,7 +40,7 @@ public:
 	//Assignment operator
 	//Vector<T>& operator=(const Vector<T>&);
 	Vector<T>& operator=(Vector<T>); //By value, see implementation below
-	void swap(Vector<T>& v) noexcept noexcept; //Swap vectors
+	void swap(Vector<T>& v) noexcept; //Swap vectors
 
 	//Pointer to start and end position for vectors with non constant and constant elements
 	T* begin() { return m_start; }
