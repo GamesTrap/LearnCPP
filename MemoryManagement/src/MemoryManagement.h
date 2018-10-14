@@ -1,6 +1,7 @@
 #pragma once
 
 #include <stdexcept>
+#include <new>
 
 template<typename T, int N>
 class MemoryManagement
