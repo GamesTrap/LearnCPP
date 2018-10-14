@@ -199,3 +199,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using DIY SmartPointer class
 - FunctionObject
 	- Example program for function objects
+- NewOverloading
+	- Program using DIY overloaded new operator
