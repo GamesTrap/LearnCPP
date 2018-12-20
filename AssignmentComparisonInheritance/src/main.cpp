@@ -8,7 +8,7 @@ int main()
 	//Class A
 	std::cout << "Test 1" << '\n';
 	A a1(1);
-	A a2(2);
+	const A a2(2);
 	a1.output();
 	std::cout << '\n';
 	a1 = a2;
@@ -20,7 +20,7 @@ int main()
 	//Class B
 	std::cout << '\n' << "Test 2" << '\n';
 	B b1(1, 2);
-	B b2(3, 4);
+	const B b2(3, 4);
 	b1.output();
 	std::cout << '\n';
 	b1 = b2;
@@ -30,7 +30,7 @@ int main()
 	assert(b1 == b2);
 
 	std::cout << '\n' << "Test 3: Polymorphic assignment" << '\n';
-	B b3(5, 6);
+	const B b3(5, 6);
 	A& ar = b1; //Upper class reference
 	ar = b3;
 	std::cout << "ar after assigning ar = b3:" << '\n';
@@ -51,7 +51,7 @@ int main()
 	assert(c1 == c2);
 
 	std::cout << '\n' << "Test 5: Polymorphic assignment A& = C" << '\n';
-	C c3(7, 8, 9);
+	const C c3(7, 8, 9);
 	A& arc = c2; //Upper class reference
 	arc = c3;
 	std::cout << "arg after assigning arc = c3:" << '\n';

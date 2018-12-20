@@ -10,12 +10,12 @@ public:
 	{
 	}
 
-	virtual C& assign(const A& rhs)
+	C& assign(const A& rhs) override
 	{
 		std::cout << "virtual C& C::assign=(const A&)" << '\n';
 		if (typeid(*this) != typeid(rhs))
 			throw std::bad_typeid();
-		C temp(static_cast<const C&>(rhs));
+		C temp(dynamic_cast<const C&>(rhs));
 		swap(temp);
 
 		return *this;
@@ -28,13 +28,13 @@ public:
 		return assign(rhs);
 	}
 
-	virtual void output() const
+	void output() const override
 	{
 		B::output();
 		std::cout << "C.m_c = " << m_c << ' ';
 	}
 
-	void swap(C& rhs)
+	void swap(C& rhs) noexcept
 	{
 		B::swap(rhs); //Upper class data
 		std::swap(m_c, rhs.m_c); //Local data

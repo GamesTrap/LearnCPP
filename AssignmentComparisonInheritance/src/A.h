@@ -34,7 +34,7 @@ public:
 		std::cout << "A.m_a = " << m_a << ' ';
 	}
 
-	void swap(A& rhs)
+	void swap(A& rhs) noexcept
 	{
 		std::swap(m_a, rhs.m_a);
 	}
