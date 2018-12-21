@@ -215,3 +215,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Converts a number to a string using stringstreams
 - Table
 	- Outputs a formatted table
+- RWVector
+	- Reads & Writes a vector
