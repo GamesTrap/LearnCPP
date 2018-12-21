@@ -217,3 +217,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Outputs a formatted table
 - RWVector
 	- Reads & Writes a vector
+- RWArray
+	- Reads & Writes an array
