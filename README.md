@@ -211,3 +211,7 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- ...
 - RWSameFile
 	- Reads & Writes in the same file
+- NumToString
+	- Converts a number to a string using stringstreams
+- Table
+	- Outputs a formatted table
