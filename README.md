@@ -219,3 +219,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Reads & Writes a vector
 - RWArray
 	- Reads & Writes an array
+- RWVectorMatrix
+	- Reads & Writes a multi dimensional vector
