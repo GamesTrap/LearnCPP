@@ -223,3 +223,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Reads & Writes a multi dimensional vector
 - WithoutSTL
 	- Program using own STL functions
+- WithoutSTLTemplate
+	- Program using own STL template functions
