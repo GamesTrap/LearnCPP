@@ -227,3 +227,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using own STL template functions
 - WithVector
 	- ...
+- List
+	- Implementation of a list(like std::list, but incomplete)
