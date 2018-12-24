@@ -233,3 +233,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- ...
 - LambdaSort
 	- Sorts a vector using lambdas
+- LambdaFunction
+	- Program using a lambda as a function
