@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include <string>
 
 #define STDMOVE //Return std::move() instead of return at op+(,)
 #define DEBUG

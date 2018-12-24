@@ -231,3 +231,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Implementation of a list(like std::list, but incomplete)
 - Performance
 	- ...
+- LambdaSort
+	- Sorts a vector using lambdas
