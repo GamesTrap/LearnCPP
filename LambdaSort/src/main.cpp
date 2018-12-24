@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <cmath>
 
 template<typename T, typename Functor>
 void ProcessVector(const std::vector<T>& v, const Functor& functor)

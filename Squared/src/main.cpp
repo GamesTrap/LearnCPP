@@ -14,7 +14,7 @@ struct Squared<0>
 
 int main()
 {
-	std::cout << Squared<11>::value << '\n';
+	std::cout << Squared<11>::value << '\n'; //Replaced with 2048 in COMPILETIME!!!
 
 	std::cout << "Press Enter to continue . . . ";
 	std::cin.get();

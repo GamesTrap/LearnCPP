@@ -236,4 +236,6 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 - LambdaFunction
 	- Program using a lambda as a function
 - Squared
-	- ...
+	- Program using a recursive template to output the square of n
+- PrimeNumber
+	- Program using a recursive template to output all prime numbers from 0 to n
