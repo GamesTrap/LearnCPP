@@ -235,3 +235,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Sorts a vector using lambdas
 - LambdaFunction
 	- Program using a lambda as a function
+- Squared
+	- ...
