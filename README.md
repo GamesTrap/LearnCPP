@@ -241,3 +241,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using a recursive template to output all prime numbers from 0 to n
 - PrintVariadic
 	- Program using a variadic template to output n amount of types passed to the template
+- PrintVariadicInt
+	- Program using a variadic template with parameter expansion
