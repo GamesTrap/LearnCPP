@@ -3,11 +3,7 @@
 #include <condition_variable>
 #include <mutex>
 
-#if (defined(_WIN32) || defined(_WIN64))
-	#include <thread>
-#else
-	#include <pthread.h>
-#endif
+#include <thread>
 
 inline std::mutex outputMutex;
 
