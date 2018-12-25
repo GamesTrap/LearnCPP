@@ -8,7 +8,7 @@ int main()
 	std::cout << "23h 59min 59s are " << almostADay.count() << " Seconds" << '\n';
 
 	//Time measurement
-	auto start = std::chrono::system_clock::now();
+	const auto start = std::chrono::system_clock::now();
 	//Calculation to pass time ...
 	std::cout << "Calculation running ..." << std::endl;
 	double sum{ 0.0 };
@@ -29,7 +29,7 @@ int main()
 	std::this_thread::sleep_for(std::chrono::milliseconds(1500));
 
 	std::cout << "Again wait until (now + 5 seconds) ..." << std::endl;
-	auto then = std::chrono::system_clock::now() + std::chrono::seconds(5);
+	const auto then = std::chrono::system_clock::now() + std::chrono::seconds(5);
 	std::this_thread::sleep_until(then);
 
 	std::cout << "Press Enter to continue . . . ";
