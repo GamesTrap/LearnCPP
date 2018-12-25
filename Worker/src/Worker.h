@@ -5,7 +5,7 @@
 #if (defined(_WIN32) || defined(_WIN64))
 	#include <thread>
 #else
-	#include <pthread>
+	#include <pthread.h>
 #endif
 
 class Worker

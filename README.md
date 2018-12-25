@@ -253,3 +253,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using multiple threads with a ThreadGroup object
 - Worker
 	- ...
+- ProducerConsumerProblem
+	- Program showing how to solve the Producer -> Consumer problem in threading
