@@ -1,6 +1,12 @@
 #include <iostream>
 #include <chrono>
-#include <thread>
+
+
+#if (defined(_WIN32 ) || defined(WIN64))
+	#include <thread>
+#else
+	#include <pthread>
+#endif
 
 void F(int t)
 {

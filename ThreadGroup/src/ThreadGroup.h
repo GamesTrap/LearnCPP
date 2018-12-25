@@ -1,7 +1,12 @@
 #pragma once
 #include <vector>
-#include <thread>
 #include <functional>
+
+#if (defined(_WIN32 ) || defined(WIN64))
+	#include <thread>
+#else
+	#include <pthread>
+#endif
 
 class ThreadGroup
 {
