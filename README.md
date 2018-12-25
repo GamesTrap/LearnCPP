@@ -243,3 +243,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program using a variadic template to output n amount of types passed to the template
 - PrintVariadicInt
 	- Program using a variadic template with parameter expansion
+- RegexTester
+	- ...
