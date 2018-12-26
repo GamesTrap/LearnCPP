@@ -257,3 +257,5 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/LearnCPP.svg?branch=mas
 	- Program showing how to solve the Producer -> Consumer problem in threading
 - ReadWriteThread
 	- ...
+- AtomicVSNonAtomic
+	- Program showing the difference of using a normal variable vs atomic variable with 100 threads
